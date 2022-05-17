@@ -15,7 +15,7 @@ import Paper from './Components/Paper';
 
 
 function App() {
-  const [profile, setProfile] = useState(true);
+  const [profile, setProfile] = useState(false);
   const [userData, setUserData] = useState(null);
   const [data,setData] = useState({});
 
